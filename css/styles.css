@@ -1,0 +1,268 @@
+/* BODY */
+body{
+    /* Annulation des marges appliquer par le navigateur sur le body */
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 33px;
+}
+
+header nav ul li a:hover{
+    color: #2468f3;
+    border-top: 3px solid #2468f3;
+}
+
+/* MAIN */
+main{
+    width: 95%;
+    margin: auto;
+}
+
+/* FIRST SECTION */
+
+main form{
+    height: 70px;
+    display: flex;
+}
+
+main form i.fa.fa-map-marker{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 20px 0 0 20px;
+}
+
+main form input{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid #F2F2F2;
+    border-bottom: 3px solid #F2F2F2;
+}
+
+main form input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+main form button{
+    color: white;
+    background-color: #2468f3;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* FILTRES */
+
+.filtres{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.filtres h2{
+margin-right: 5%;
+}
+
+.filtres-conteneur{
+    display: flex;
+}
+
+.filtre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+    height: 50px;
+    margin-right: 5%;
+}
+
+.filtre i{
+    height: 56px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+    color: #2468f3;
+    margin-left: -3px;
+}
+
+
+.filtre p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.filtre:hover p{
+    color: white;
+}
+
+.filtre:hover {
+    background-color: #2468f3;
+
+}
+.result-message {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .result-message .fa-solid {
+    color: #2468f3;
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  /* SECOND SECTION */
+
+ .block-main {
+ display : flex;
+flex-direction: row;
+/* flex-wrap: wrap;   */
+background-color: #eeeeee;
+border-radius: 1rem;
+padding: 2.5rem;
+height: 45rem
+} 
+
+ .appartments-wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex-basis: 61%;
+} 
+ .appartemnt-block1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5rem;
+
+} 
+  .block-pop{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 26%;
+    background-color:  #eeeeee;
+}  
+ .block-main h1{
+    font-size: 1.5rem;
+    margin-bottom: 1,5rem;
+    margin-bottom: 0;
+} 
+ .block-main h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}  
+ /* appartements cards  */
+
+  .appartement-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    border: 0,5rem solid white;
+    width: 20rem;
+    height: 16rem;
+    box-shadow: 0 0 1rem #0000002e;
+     margin: 1rem 1rem 1rem 1rem ; 
+  }
+  .ac1{
+    display: flex;
+    flex-direction: row;
+  }
+  .ac2{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .appartement-card img {
+    border: 0.4rem solid white; 
+    border-radius: 1rem 1rem 0 0;
+    height: 70%;
+    object-fit: cover;
+  } 
+  .infos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .infos h2{
+    margin: 0;
+  }
+ 
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #eeeeee;
+    padding: 3rem;
+    gap: 20%; 
+  }
+  
+  .footer div ul {
+    list-style-type: none;  
+    margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0;
+  }
+  
+  .footer div ul li a {
+    text-decoration: none;
+     max-width: inherit;
+  }
+  
+  .footer div ul li a:hover {
+    text-decoration: underline;
+    color: #2468f3
+  }
+  
