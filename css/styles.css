@@ -161,22 +161,35 @@ margin-right: 5%;
  
   /* SECOND SECTION */
 
- .block-main {
- display : flex;
-flex-direction: row;
-/* flex-wrap: wrap;   */
-background-color: #eeeeee;
-border-radius: 1rem;
-padding: 2.5rem;
-height: 45rem
-} 
+  .block-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Hébergements {
+  display: flex;
+  flex-direction: column;
+  background-color:  #DEEBFF; 
+  width: 64%;
+  border-radius: 20px 20px 20px 20px;
+  
 
- .appartments-wrapper {
+}
+.populaires {
+  display: flex;
+  flex-direction: column;
+  background-color:  #DEEBFF;
+  width: 33%;
+  border-radius: 20px 20px 20px 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+ /* .appartments-wrapper {
     
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    flex-basis: 61%;
+  
 } 
  .appartemnt-block1{
     display: flex;
@@ -200,7 +213,7 @@ height: 45rem
     font-size: 1.2rem;
     margin-top: 2rem;
     margin-bottom: 0;
-}  
+}   */
  /* appartements cards  */
 
   .appartement-card{
@@ -208,33 +221,35 @@ height: 45rem
     flex-direction: column;
     background-color: white;
     border-radius: 1rem;
-    border: 0,5rem solid white;
-    width: 20rem;
-    height: 16rem;
+    /* width: 30%; */
+    height: 260px;
     box-shadow: 0 0 1rem #0000002e;
-     margin: 1rem 1rem 1rem 1rem ; 
+    padding: 5px;
   }
   .ac1{
     display: flex;
-    flex-direction: row;
+   justify-content: space-around;
+   margin-bottom: 10px;
   }
   .ac2{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
   }
   
   
   .appartement-card img {
-    border: 0.4rem solid white; 
     border-radius: 1rem 1rem 0 0;
-    height: 70%;
+     height: 70%; 
     object-fit: cover;
   } 
-  .infos{
+  /* .infos{
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
-  }
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+  } */
   .infos h2{
     margin: 0;
   }
