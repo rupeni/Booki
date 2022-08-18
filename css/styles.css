@@ -306,7 +306,11 @@ justify-content: space-between;
       object-fit: cover;
       margin-bottom: 24px;
     }
-    
+    .activity-card a {
+      color: black;
+      text-decoration: none;
+    }
+
     .activity-card.medium {
       display: flex;
       flex-direction: column;
@@ -340,9 +344,9 @@ justify-content: space-between;
         padding-left: 1rem;
     }  
     .title {
-      color: black;
-      text-decoration: none;
+
       padding-left: 20px;
+      font-weight: bold;
     }
     
  
