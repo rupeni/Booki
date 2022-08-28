@@ -72,6 +72,7 @@ main form input {
   border-right: none;
   border-top: 3px solid #F2F2F2;
   border-bottom: 3px solid #F2F2F2;
+  font-family: 'Raleway', sans-serif;
 }
 
 main form input::placeholder {
@@ -87,6 +88,7 @@ main form button {
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 /* FILTRES */
@@ -186,12 +188,11 @@ main form button {
   padding: 3%;
 }
 
-.hebergements h2 {
+.hebergements h2, .populaires h2 {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-
 }
 
 .populaires {
@@ -239,9 +240,8 @@ margin: 0 0;
   box-shadow: 0 0 1rem #0000002e;
   padding: 5px;
   text-decoration: none;
-  color: black;  
+  color: black;
 }
-
 
 .hebergements .appartement-card img {
   border-radius: 25px 25px 0 0;
@@ -249,7 +249,12 @@ margin: 0 0;
   object-fit: cover;
 }
 
-.afficher-plus{
+.hebergements .appartement-card .infos{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.afficher-plus {
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -257,7 +262,7 @@ margin: 0 0;
   font-size: 18px;
 }
 
-.afficher-plus:hover{
+.afficher-plus:hover {
   text-decoration: underline;
   color: #2468f3;
 }
@@ -275,10 +280,10 @@ margin: 0 0;
   border-radius: 25px;
   box-shadow: 0 0 1rem #0000002e;
   padding: 5px;
-  margin: 10px 0;
-  height: 150px;
+  margin-bottom: 20px;
+  height: 160px;
   text-decoration: none;
-  color: black;  
+  color: black;
 }
 
 .populaires .appartement-card img {
@@ -288,11 +293,19 @@ margin: 0 0;
   object-fit: cover;
 }
 
+.populaires .appartement-card .infos{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .blue-star {
   color: #2468f3;
 }
 
-.gray-star{
+.gray-star {
   color: #F2F2F2;
 }
 
@@ -310,29 +323,31 @@ margin: 0 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
 }
-.activites{
+
+.activites {
   width: 100%;
 }
 
-.activites-cards{
+.activites-cards {
   width: 100%;
+  height: 500px;
   display: flex;
   justify-content: space-between;
 }
 
-.activite-colonne{
-  width: 22%;
-  height: 500px;
+.activite-colonne {
+  width: 23%;
   display: flex;
-   /* background-color: red;  */
+  /* height: 500px; */
+  /* background-color: red;  */
 }
 
-.activite-ligne{
- width: 100%;
- height: 100%;
+.activite-ligne {
+  width: 100%;
+  height: 100%;
 }
 
-.activite-card{
+.activite-card {
   width: 100%;
   height: 100%;
   display: flex;
@@ -343,53 +358,56 @@ margin: 0 0;
   box-shadow: 0 0 1rem #0000002e;
   font-weight: bold;
   font-size: 18px;
- }
+}
 
- .activite-card .activite-image{
+.activite-card .activite-image {
   width: 100%;
-  height: 450px;
- }
+  height: 90%;
+}
 
- .activite-card .activite-image img{
+.activite-card .activite-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 25px 25px 0 0;
- }
+}
 
- .activite-card .activite-details{
- margin-left: 10px;
- }
- .activite-colonne-2{
-  width: 22%;
-  height: 450px;
+.activite-card .activite-details {
+  margin-left: 10px;
+}
+
+.activite-colonne-2 {
+  width: 23%;
   display: flex;
-  flex-direction: column; 
-  gap: 81px
-   /* background-color: red;  */
- }
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  .activite-ligne-medium{
-    width: 100%;
-    height: 270px;
- }
- .activite-card .activite-image-medium{
+.activite-ligne-medium {
   width: 100%;
-  height: 450px;
- }
+  height: 270px;
+}
 
- .activite-ligne-small{
+.activite-ligne-medium .activite-image{
+  height: 80%;
+}
+
+.activite-ligne-small {
   width: 100%;
-  height: 150px;
- }
- 
- .activite-card .activite-image-small img{
+  height: 200px;
+}
+
+.activite-ligne-small .activite-image-small{
+  height: 70%;
+}
+
+.activite-card .activite-image-small img {
   width: 100%;
-  height: 90px;
+  height: 100%;
   object-fit: cover;
   border-radius: 25px 25px 0 0;
- }
- 
+}
+
 
 .footer {
   display: flex;
@@ -413,10 +431,13 @@ margin: 0 0;
   color: black;
   text-decoration: none;
   max-width: inherit;
-  
+
 }
 
 .footer div ul li a:hover {
   text-decoration: underline;
   color: #2468f3
+}
+.footer div ul li{
+  margin-bottom: 10px;
 }
