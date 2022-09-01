@@ -444,6 +444,11 @@ margin: 0 0;
 /* MEDIA-QUERY */
 @media screen and (max-device-width: 490px)
 {
+  .logo {
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
   header {
     display: flex;
     flex-wrap: wrap;
