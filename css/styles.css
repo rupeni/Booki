@@ -441,3 +441,71 @@ margin: 0 0;
 .footer div ul li{
   margin-bottom: 10px;
 }
+/* MEDIA-QUERY */
+@media screen and (max-device-width: 490px)
+{
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .filtres{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .block-main{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .hebergements {
+    width: 100%;
+  }
+  .appartement-card {
+     width: 100%; 
+    margin-bottom: 10px;
+  }
+  .populaires{
+     width: 100%; 
+    
+  }
+  .hebergements-populaires
+  {
+    display:flex ;
+    flex-direction: column;
+  }
+  .ac
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .activites
+  {
+
+    height: auto; 
+  }
+  .activites-cards , .activite-colonne, .activite-colonne-2
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    
+  } 
+  .activite-ligne-small{
+    padding-bottom: 10px;
+  }
+  .activites-cards{
+    order: 1;
+  }
+  .footer
+ {
+  display: flex;
+  flex-direction: column;
+ order: 2;
+ }
+
+
+}
+  
+  
