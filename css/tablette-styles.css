@@ -1,0 +1,226 @@
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+    /* premiere section */
+    .rechercher-mobile {
+        display: none;
+
+    }
+
+    .rechercher-desktop {
+        display: block;
+
+    }
+
+    .block-main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .populaires {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 94%;
+        border-radius: 20px 20px 20px 20px;
+        padding: 3%;
+        margin-bottom: 20px
+    }
+
+    .populaires .appartement-card img {
+        border-radius: 25px 0 0 25px;
+        width: 415px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hebergements {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 94%;
+        border-radius: 20px 20px 20px 20px;
+        padding: 3%;
+    }
+
+    .hebergements .ac {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    /* seconde section  */
+    .hebergements {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 94%;
+        border-radius: 20px 20px 20px 20px;
+        padding: 3%;
+    }
+    .hebergements .appartement-card {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 25px;
+        width: 97%;
+        box-shadow: 0 0 1rem #0000002e;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .populaires {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 94%;
+        border-radius: 0;
+        padding: 3%;
+    }
+    .populaires .appartement-card {
+        display: flex;
+        width: 97%;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0 0 1rem #0000002e;
+        padding: 5px;
+        margin-bottom: 20px;
+        height: 160px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* ACTIVITIES */
+    .activites {
+        flex-direction: column;
+        width: 94%;
+        border-radius: 0;
+        padding: 3%;
+    }
+
+    .activites-cards {
+        height: auto;
+    }
+
+    .logo {
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filtres {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .block-main {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .hebergements {
+        width: 94%;
+    }
+
+    .appartement-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .populaires {
+        width: 94%;
+
+    }
+
+    .hebergements-populaires {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ac {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activites {
+
+        height: auto;
+    }
+
+    .activites-cards,
+    .activite-colonne,
+    .activite-colonne-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+    .activite-colonne-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+        gap: 25px;
+    }
+
+    .activite-ligne-small {
+        padding-bottom: 10px;
+    }
+
+    .activites-cards {
+        order: 1;
+    }
+    .activite-ligne-medium .activite-image {
+        height: 300px;
+    }
+    .activite-ligne-small {
+        width: 100%;
+        height: 300px;
+    }
+    .activite-ligne-medium {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 0px;
+    }
+     .activite-colonne, .activite-colonne-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+     /* .activite-colonne, .activite-colonne-2 {
+        display: flex;
+        flex-direction: column;
+        width: 102%;
+        margin-bottom: 10px;
+    } */
+    .activite-colonne-2 {
+        display: flex;
+        flex-direction: column;
+        width: 102%;
+        margin-bottom: 10px;
+        gap: 25px;
+    }    
+
+.activite-ligne {
+    width: 100%;
+    height: 300px;
+}
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+
+}
