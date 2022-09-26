@@ -10,7 +10,10 @@
         display: block;
 
     }
-
+    header {
+        display: flex;
+        flex-direction: column;
+    }
     .block-main {
         display: flex;
         justify-content: space-between;
