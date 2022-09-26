@@ -10,9 +10,12 @@
         display: block;
 
     }
-    header {
-        display: flex;
-        flex-direction: column;
+    
+    #logo {
+        width: 50%;
+        position: relative;
+        top: 0px;
+        right: 165px;
     }
     .block-main {
         display: flex;
